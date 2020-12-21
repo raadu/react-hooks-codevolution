@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import {useState} from 'react';
 import './App.css';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import ClassCounterTwo from './components/ClassCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
+import LifecycleExample from './components/LifecycleExample';
+import EffectHook from './components/EffectHook';
+import ClassMouse from './components/ClassMouse';
+import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataFetching/>
     </div>
   );
 }
