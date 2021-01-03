@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, createContext, useReducer} from 'react';
 import './App.css';
 import ClassCounter from './components/ClassCounter';
 import HookCounter from './components/HookCounter';
@@ -14,13 +14,21 @@ import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
-
+import DataFetchingTwo from './components/DataFetchingTwo';
+import ComponentC from './components/ComponentC';
+import UsereducerHookCounter from './components/UsereducerHookCounter';
+import UsereducerHookCounterTwo from './components/UsereducerHookCounterTwo';
+import UsereducerHookCounterThree from './components/UsereducerHookCounterThree';
+import ComponentD from './components/ComponentD';
+import ComponentE from './components/ComponentE';
+import ComponentF from './components/ComponentF';
 
 function App() {
 
+
   return (
     <div className="App">
-      <DataFetching/>
+      <div>App</div>
     </div>
   );
 }
