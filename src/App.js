@@ -22,13 +22,16 @@ import UsereducerHookCounterThree from './components/UsereducerHookCounterThree'
 import ComponentD from './components/ComponentD';
 import ComponentE from './components/ComponentE';
 import ComponentF from './components/ComponentF';
+import DataFetchingUsereducer from './components/DataFetchingUsereducer';
+import DataFetchingUsereducerTwo from './components/DataFetchingUsereducerTwo';
+import ParentComponent from './components/UsecallbackComponent/ParentComponent';
 
 function App() {
 
 
   return (
     <div className="App">
-      <div>App</div>
+      <ParentComponent/>
     </div>
   );
 }
