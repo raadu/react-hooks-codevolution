@@ -25,13 +25,14 @@ import ComponentF from './components/ComponentF';
 import DataFetchingUsereducer from './components/DataFetchingUsereducer';
 import DataFetchingUsereducerTwo from './components/DataFetchingUsereducerTwo';
 import ParentComponent from './components/UsecallbackComponent/ParentComponent';
+import MemoCounter from './components/useMemoHook/MemoCounter';
 
 function App() {
 
 
   return (
     <div className="App">
-      <ParentComponent/>
+      <MemoCounter/>
     </div>
   );
 }
