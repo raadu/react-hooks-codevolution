@@ -26,13 +26,18 @@ import DataFetchingUsereducer from './components/DataFetchingUsereducer';
 import DataFetchingUsereducerTwo from './components/DataFetchingUsereducerTwo';
 import ParentComponent from './components/UsecallbackComponent/ParentComponent';
 import MemoCounter from './components/useMemoHook/MemoCounter';
+import FocusInput from './components/UseRefHook/FocusInput';
+import ClassTimer from './components/UseRefHook/ClassTimer';
+import HookTimer from './components/UseRefHook/HookTimer';
+import DocTitleOne from './components/CustomHooks/DocTitleOne';
+import DocTitleTwo from './components/CustomHooks/DocTitleTwo';
 
 function App() {
 
-
   return (
     <div className="App">
-      <MemoCounter/>
+      <DocTitleOne/>
+      <DocTitleTwo/>
     </div>
   );
 }
