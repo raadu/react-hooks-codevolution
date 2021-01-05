@@ -31,13 +31,15 @@ import ClassTimer from './components/UseRefHook/ClassTimer';
 import HookTimer from './components/UseRefHook/HookTimer';
 import DocTitleOne from './components/CustomHooks/DocTitleOne';
 import DocTitleTwo from './components/CustomHooks/DocTitleTwo';
+import CounterOne from './components/CustomHooks/CounterOne';
+import CounterTwo from './components/CustomHooks/CounterTwo';
+import UserForm from './components/CustomHooks/CustomInputHook/UserForm';
 
 function App() {
 
   return (
     <div className="App">
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      <UserForm/>
     </div>
   );
 }
